@@ -1,0 +1,49 @@
+# Build artifacts
+build/
+out/
+bin/
+obj/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.exe
+*.dll
+*.lib
+*.so
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.aps
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# vcpkg / conan
+vcpkg_installed/
+conan/
+
+# C# artifacts
+[Dd]ebug/
+[Rr]elease/
+packages/
+*.nupkg
+
+# Runtime / config
+config/local.json
+logs/
+*.log
+crashdumps/
+profiles/*.local.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
