@@ -1,0 +1,2 @@
+add_executable(gta5opt_injector main.cpp)
+target_link_libraries(gta5opt_injector PRIVATE gta5opt_core)
